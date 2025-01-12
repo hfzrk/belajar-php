@@ -22,3 +22,4 @@ if ($nilai > 90) {
 }
 echo "Nilai anda : $nilai <br>";
 echo "Grade : $grade";
+echo "test";
