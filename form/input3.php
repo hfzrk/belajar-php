@@ -6,8 +6,8 @@
     <title>Pengolahan Form</title>
 </head>
 <body>
-    <form action="proses3.php" method="post" name="input">
-        Nama Anda : <input type="text" name="nama"><br>
+    <form action="proses3.php" method="get" name="input">
+        Nama Anda : <input type="text" name="name"> <br>
         <input type="submit" name="Input" value="Input">
     </form>
 </body>
