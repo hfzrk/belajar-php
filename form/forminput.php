@@ -11,7 +11,9 @@
             <tr>
                 <td>Nama</td>
                 <td>:</td>
-                <td><input type="text" name="nama"></td>
+                <td><label>
+                        <input type="text" name="nama">
+                    </label></td>
             </tr>
             <tr>
                 <td>Umur</td>
