@@ -1,0 +1,17 @@
+.form-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    width: 20%;
+    margin: 0 auto;
+}
+.form-group {
+    display: contents;
+}
+.tanggal-group {
+    display: flex;
+    gap: 5px;
+}
+.judul{
+    text-align: center;
+}
