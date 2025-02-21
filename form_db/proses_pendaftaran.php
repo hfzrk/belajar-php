@@ -19,7 +19,7 @@ if(isset($_POST['daftar'])){
     // cek apakah query simpan berhasil?
     if($query){
         //kalo berhasil alihkan ke index.php status=sukses
-        header('Location: index.php?status=sukses');
+        header('Location: list_siswa.php?status=sukses');
     } else{
         //kalo gagal alihkan ke index.php status=gagal
         header('Location: index.php?status=gagal');

@@ -53,5 +53,14 @@ include("config.php"); ?>
         </tbody>
     </table>
     <p>Total: <?php  echo mysqli_num_rows($query)?></p>
+    <?php
+    if(isset($_GET['status'])){
+        if($_GET['status'] == 'sukses'){
+            echo "<p>Pendaftaran siswa berhasil!</p>";
+        } else {
+            echo "<p>Pendaftaran siswa gagal!</p>";
+        }
+    }
+    ?>
 </body>
 </html>
